@@ -1,0 +1,21 @@
+#!/bin/bash
+#yum install -y update, wget, curl, vim, git, yum-utils, dnf, python3-dnf
+yum install -y update
+echo "Success Install update"
+yum install -y wget
+echo "Success Install wget"
+yum install -y curl
+echo "Success Install curl"
+yum install -y vim
+echo "Success Install vim"
+yum install -y git
+echo "Success Install git"
+yum install -y yum-utils
+echo "Success Install yum-utils"
+yum install -y dnf
+echo "Success Install dnf"
+yum install -y python3 dnf
+echo "Success Install python3-dnf"
+#yum install -y cowsay
+yum groupinstall -y development
+echo "Success Install wget, curl, vim, git, yum-utils, dnf, python3-dnf, groupinstall development"
